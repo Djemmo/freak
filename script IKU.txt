@@ -1,23 +1,5 @@
-script_key="rrMpgRwFdBggUVCtFSvMwDwWcUFFdyIi";
-_G.Config = {
-    ["host"] = 2682673712, -- HostID
-    ["fps"] = 3, -- Alts Fps Cap
-
-    ["options"] = {
-        ["prefix"] = "/", -- Prefix For Commands
-        ["Feedback"] = true, -- Feedback for commands drop, stop Etc.
-        ["Rendering"] = false, -- Set To True or False If Mem Leak.
-        ["Cashdel"] = true, -- Enable Cashdel Upon Executing
-    },
-
-    ["Alts"] = { -- Alts UserID
-         1634192974,
-         2686354063,
-         5771109831,
-         1870042889,
-         3745860275,
-         5376575978,
-    }
+_G.AutofarmSettings = { 
+    Fps = 10, --// anything above 3 should be good, 10+ if you want to make the most cash.
+    Saver = true, --// black screen to save usage, shows wallet, timer, broken atms, profit.
 }
-
-loadstring(game:HttpGet("https://cdn.luarmor.net/verified/NovaControl.lua"))()
+loadstring(game:HttpGet("https://femboy.edu.pl/p/raw/0txodhcaxm"))()
