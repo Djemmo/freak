@@ -11,7 +11,7 @@ _G.polarsblade = {
         unjail = true,
     },
     server = {
-        handlekicks = false,
+        handlekicks = true,
         serverhoponknock = false,
         serverhoponnoregisters = false,
         
