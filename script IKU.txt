@@ -7,7 +7,7 @@ _G.Config = {
         ["prefix"] = "/", -- Prefix For Commands
         ["Feedback"] = true, -- Feedback for commands drop, stop Etc.
         ["Rendering"] = false, -- Set To True or False If Mem Leak.
-        ["Cashdel"] = false, -- Enable Cashdel Upon Executing
+        ["Cashdel"] = true, -- Enable Cashdel Upon Executing
     },
 
     ["Alts"] = { -- Alts UserID
