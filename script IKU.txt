@@ -1,3 +1,33 @@
-getgenv().HostUser = "vrx1o"
-getgenv().Alts = {5426519747, 5771109831, 1870042889, 5376575978, 3745860275, 1634192974, 5426519763, 2686354063, 5426520034, 5426519890, 5426519807, 5426519734, 5426519839, 7123316545, 7123313534} --make sure to put space after every comma as shown in example
-loadstring(game:HttpGet('https://raw.githubusercontent.com/Msorky/Duckys-return/main/Aura"%5D%20%3D', true))()
+script_key="rrMpgRwFdBggUVCtFSvMwDwWcUFFdyIi";
+_G.Config = {
+    ["host"] = 2682673712, -- HostID
+    ["fps"] = 3, -- Alts Fps Cap
+
+    ["options"] = {
+        ["prefix"] = "/", -- Prefix For Commands
+        ["Feedback"] = true, -- Feedback for commands drop, stop Etc.
+        ["Rendering"] = false, -- Set To True or False If Mem Leak.
+        ["Cashdel"] = false, -- Enable Cashdel Upon Executing
+    },
+
+    ["Alts"] = { -- Alts UserID
+        1234567890,
+        5426519747,
+        5771109831,
+        1870042889,
+        5376575978,
+        3745860275,
+        1634192974,
+        5426519763,
+        2686354063,
+        5426520034,
+        5426519890,
+        5426519807,
+        5426519734,
+        5426519839,
+        7123316545,
+        7123313534,
+    }
+}
+
+loadstring(game:HttpGet("https://cdn.luarmor.net/verified/NovaControl.lua"))()
