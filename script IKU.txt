@@ -1,4 +1,4 @@
-script_key="rrMpgRwFdBggUVCtFSvMwDwWcUFFdyIi";
+script_key="zvLFWFdFjLnyaymaMqYxfFTNThFBKvGV";
 _G.Config = {
     ["host"] = 2682673712, -- HostID
     ["fps"] = 3, -- Alts Fps Cap
