@@ -1,7 +1,7 @@
 script_key="VKIxalZqPRIOModsMamSHdlwvGbaBJFi";
 getgenv().Rendering = true
 getgenv().Optimize = false  --recommended to be on if rendering is off
-getgenv().controller = 1234567890
+getgenv().controller = 2682673712
 getgenv().prefix = '.'
 getgenv().fps = 5
 getgenv().alts = {
