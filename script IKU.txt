@@ -1,85 +1,47 @@
-script_key = "cCvDhgYzWGxmWSdBOlVbwHjJIilbvSUS"
-
-_G.polarsblade = {
-    client = {
-        fps = 8,
-        rendering = true,
-        gui = false,
-    },
-    items = {
-        mask = false,
-        unjail = true,
-    },
-    server = {
-        handlekicks = true,
-        serverhoponknock = false,
-        serverhoponnoregisters = false,
-
-        otheraccounts = {
-            switch = true,  -- Set this to true
-            ids = {
-                5426519747,
-                5771109831,
-                1870042889,
-                5376575978,
-                3745860275,
-                1634192974,
-                5426519763,
-                2686354063,
-                5426520034,
-                5426519890,
-                5426519807,
-                5426519734,
-                5426519839,
-                7123316545,
-                7123313534,
-                3068220681,
-                3083889210,
-                3083891022,
-                3083892540,
-                3083894051,
-                3083895514,
-                3301167626,
-                3301171525,
-                3301172896,
-                3301175464,
-                3301176405,
-                3301177451,
-                3301178340,
-                3301179293,
-                3301180270,
-                3301181373,
-                3301182850,
-                3301184471,
-                3301185659,
-                3301187082,
-                3301188358,
-                3301189447,
-                3301191149,
-                3301192472,
-                3301195894,
-                3301197318,
-                3301198667,
-                3301200132,
-                7123295683,
-                7123302534,
-                7123302053,
-                7123300155,
-                7123304506,
-                7123294244,
-                7123304512,
-                7123303029
-            }
-        }
-    },
-    otherfarmers = {
-        killfarmers = false,
-        jumpatms = false,
-    },
-    webhook = {
-        switch = false,
-        link = "https://discord.com/api/webhooks/1254184179449462865/0PYKxchb7Ob4IXF6-K-kQyQf6R6fn20VeSP6c3_kflgaxoUsrRnRbSowVssLPmGoQtn9",
-    },
+script_key="VKIxalZqPRIOModsMamSHdlwvGbaBJFi";
+getgenv().Rendering = true
+getgenv().Optimize = false  --recommended to be on if rendering is off
+getgenv().controller = 2682673712
+getgenv().prefix = '.'
+getgenv().fps = 5
+getgenv().alts = {
+    ["Alt1"] = 5426519747,
+    ["Alt2"] = 5771109831,
+    ["Alt3"] = 1870042889,
+    ["Alt4"] = 5376575978,
+    ["Alt5"] = 3745860275,
+    ["Alt6"] = 1634192974,
+    ["Alt7"] = 5426519763,
+    ["Alt8"] = 2686354063,
+    ["Alt9"] = 5426520034,
+    ["Alt10"] = 5426519890,
+    ["Alt11"] = 5426519807,
+    ["Alt12"] = 5426519734,
+    ["Alt13"] = 5426519839,
+    ["Alt14"] = 7123316545,
+    ["Alt15"] = 7123313534,
+    ["Alt16"] = 1234567890,
+    ["Alt17"] = 1234567890,
+    ["Alt18"] = 1234567890,
+    ["Alt19"] = 1234567890,
+    ["Alt20"] = 1234567890,
+    ["Alt21"] = 1234567890,
+    ["Alt22"] = 1234567890,
+    ["Alt23"] = 1234567890,
+    ["Alt24"] = 1234567890,
+    ["Alt25"] = 1234567890,
+    ["Alt26"] = 1234567890,
+    ["Alt27"] = 1234567890,
+    ["Alt28"] = 1234567890,
+    ["Alt29"] = 1234567890,
+    ["Alt30"] = 1234567890,
+    ["Alt31"] = 1234567890,
+    ["Alt32"] = 1234567890,
+    ["Alt33"] = 1234567890,
+    ["Alt34"] = 1234567890,
+    ["Alt35"] = 1234567890,
+    ["Alt36"] = 1234567890,
+    ["Alt37"] = 1234567890,
+    ["Alt38"] = 1234567890,
 }
-
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/dcba12602570f5a1c36c86252d5f78c9.lua"))()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/715bb0109689ef2449fd03fa1e09faa5.lua"))()
